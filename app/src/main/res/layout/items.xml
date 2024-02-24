@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="275dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="7dp"
+        app:cardCornerRadius="7dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/book_click"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/it_cover"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/display"
+                />
+
+            <TextView
+                android:id="@+id/it_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="প্যারাডক্সিক্যাল সাজিদ প্যারাডক্সিক্যাল সাজিদ প্যারাডক্সিক্যাল সাজিদ"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:maxLines="2"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
